@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8F739420471A2900FB1BDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F739320471A2900FB1BDC /* AppDelegate.swift */; };
+		AF8F739620471A2900FB1BDC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF8F739520471A2900FB1BDC /* GameScene.sks */; };
+		AF8F739A20471A2900FB1BDC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F739920471A2900FB1BDC /* GameScene.swift */; };
+		AF8F739C20471A2900FB1BDC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F739B20471A2900FB1BDC /* GameViewController.swift */; };
+		AF8F739F20471A2900FB1BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8F739D20471A2900FB1BDC /* Main.storyboard */; };
+		AF8F73A120471A2900FB1BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73A020471A2900FB1BDC /* Assets.xcassets */; };
+		AF8F73A420471A2900FB1BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73A220471A2900FB1BDC /* LaunchScreen.storyboard */; };
+		AF8F73B320471AEE00FB1BDC /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73AC20471AEE00FB1BDC /* spark.png */; };
+		AF8F73B420471AEE00FB1BDC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73AD20471AEE00FB1BDC /* background.png */; };
+		AF8F73B520471AEE00FB1BDC /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73AE20471AEE00FB1BDC /* rocket.png */; };
+		AF8F73B620471AEE00FB1BDC /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73AF20471AEE00FB1BDC /* fuse.sks */; };
+		AF8F73B720471AEE00FB1BDC /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73B020471AEE00FB1BDC /* explode.sks */; };
+		AF8F73B820471AEE00FB1BDC /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73B120471AEE00FB1BDC /* background@2x.png */; };
+		AF8F73B920471AEE00FB1BDC /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8F73B220471AEE00FB1BDC /* rocket@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF8F739020471A2900FB1BDC /* Fireworks Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fireworks Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F739320471A2900FB1BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8F739520471A2900FB1BDC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AF8F739920471A2900FB1BDC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF8F739B20471A2900FB1BDC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF8F739E20471A2900FB1BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8F73A020471A2900FB1BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8F73A320471A2900FB1BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8F73A520471A2900FB1BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8F73AC20471AEE00FB1BDC /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		AF8F73AD20471AEE00FB1BDC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AF8F73AE20471AEE00FB1BDC /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		AF8F73AF20471AEE00FB1BDC /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		AF8F73B020471AEE00FB1BDC /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		AF8F73B120471AEE00FB1BDC /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		AF8F73B220471AEE00FB1BDC /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8F738D20471A2900FB1BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8F738720471A2900FB1BDC = {
+			isa = PBXGroup;
+			children = (
+				AF8F739220471A2900FB1BDC /* Fireworks Night */,
+				AF8F739120471A2900FB1BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8F739120471A2900FB1BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F739020471A2900FB1BDC /* Fireworks Night.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8F739220471A2900FB1BDC /* Fireworks Night */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F739320471A2900FB1BDC /* AppDelegate.swift */,
+				AF8F739520471A2900FB1BDC /* GameScene.sks */,
+				AF8F739920471A2900FB1BDC /* GameScene.swift */,
+				AF8F739B20471A2900FB1BDC /* GameViewController.swift */,
+				AF8F739D20471A2900FB1BDC /* Main.storyboard */,
+				AF8F73A020471A2900FB1BDC /* Assets.xcassets */,
+				AF8F73A220471A2900FB1BDC /* LaunchScreen.storyboard */,
+				AF8F73A520471A2900FB1BDC /* Info.plist */,
+				AF8F73AB20471AEE00FB1BDC /* Content */,
+			);
+			path = "Fireworks Night";
+			sourceTree = "<group>";
+		};
+		AF8F73AB20471AEE00FB1BDC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F73AC20471AEE00FB1BDC /* spark.png */,
+				AF8F73AD20471AEE00FB1BDC /* background.png */,
+				AF8F73AE20471AEE00FB1BDC /* rocket.png */,
+				AF8F73AF20471AEE00FB1BDC /* fuse.sks */,
+				AF8F73B020471AEE00FB1BDC /* explode.sks */,
+				AF8F73B120471AEE00FB1BDC /* background@2x.png */,
+				AF8F73B220471AEE00FB1BDC /* rocket@2x.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8F738F20471A2900FB1BDC /* Fireworks Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F73A820471A2900FB1BDC /* Build configuration list for PBXNativeTarget "Fireworks Night" */;
+			buildPhases = (
+				AF8F738C20471A2900FB1BDC /* Sources */,
+				AF8F738D20471A2900FB1BDC /* Frameworks */,
+				AF8F738E20471A2900FB1BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fireworks Night";
+			productName = "Fireworks Night";
+			productReference = AF8F739020471A2900FB1BDC /* Fireworks Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8F738820471A2900FB1BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iGarcia;
+				TargetAttributes = {
+					AF8F738F20471A2900FB1BDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF8F738B20471A2900FB1BDC /* Build configuration list for PBXProject "Fireworks Night" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8F738720471A2900FB1BDC;
+			productRefGroup = AF8F739120471A2900FB1BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8F738F20471A2900FB1BDC /* Fireworks Night */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8F738E20471A2900FB1BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F739F20471A2900FB1BDC /* Main.storyboard in Resources */,
+				AF8F73B820471AEE00FB1BDC /* background@2x.png in Resources */,
+				AF8F73B920471AEE00FB1BDC /* rocket@2x.png in Resources */,
+				AF8F73B320471AEE00FB1BDC /* spark.png in Resources */,
+				AF8F73B620471AEE00FB1BDC /* fuse.sks in Resources */,
+				AF8F73B720471AEE00FB1BDC /* explode.sks in Resources */,
+				AF8F73B420471AEE00FB1BDC /* background.png in Resources */,
+				AF8F739620471A2900FB1BDC /* GameScene.sks in Resources */,
+				AF8F73A120471A2900FB1BDC /* Assets.xcassets in Resources */,
+				AF8F73B520471AEE00FB1BDC /* rocket.png in Resources */,
+				AF8F73A420471A2900FB1BDC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8F738C20471A2900FB1BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F739A20471A2900FB1BDC /* GameScene.swift in Sources */,
+				AF8F739C20471A2900FB1BDC /* GameViewController.swift in Sources */,
+				AF8F739420471A2900FB1BDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF8F739D20471A2900FB1BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8F739E20471A2900FB1BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF8F73A220471A2900FB1BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8F73A320471A2900FB1BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8F73A620471A2900FB1BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8F73A720471A2900FB1BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8F73A920471A2900FB1BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = "Fireworks Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Fireworks-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AF8F73AA20471A2900FB1BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = "Fireworks Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Fireworks-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8F738B20471A2900FB1BDC /* Build configuration list for PBXProject "Fireworks Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F73A620471A2900FB1BDC /* Debug */,
+				AF8F73A720471A2900FB1BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F73A820471A2900FB1BDC /* Build configuration list for PBXNativeTarget "Fireworks Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F73A920471A2900FB1BDC /* Debug */,
+				AF8F73AA20471A2900FB1BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8F738820471A2900FB1BDC /* Project object */;
+}
